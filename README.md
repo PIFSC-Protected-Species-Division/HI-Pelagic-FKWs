@@ -33,11 +33,10 @@ Downloading individual components of a shapefile is not recommended;
 however, downloading individual folders from GitHub is not intuitive.
 The easiest way to obtain the management area boundary is to download
 the repository by clicking on the green “Code” button in the upper right
-of the repository
-[homepage](https://github.com/PIFSC-Protected-Species-Division/HI-Pelagic-FKWs)
-and selecting “Download ZIP”. You can then delete the files and folders
-you do not need. If you have any questions or issues with any of the
-files, please contact Amanda Bradford at amanda.bradford@noaa.gov.
+of this page and selecting “Download ZIP”. You can then delete the files
+and folders you do not need. If you have any questions or issues with
+any of the files, please contact Amanda Bradford at
+amanda.bradford@noaa.gov.
 
 ## Genetic sample data
 
@@ -111,7 +110,7 @@ contains the following information:
 | InMgmtArea     | Interaction location is within (TRUE) or outside (FALSE) the new management area                                                                                                                                                                                                                            |
 | Stock          | Stock assignment from genetic or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with interaction that could be with either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic or NWHIorHIPelagic)                          |
 | InjDet         | Severity of injury resulting from interaction, either serious, non-serious, cannot-be-determined (CBD), or dead following NOAA Fisheries injury determination [guidelines](https://www.fisheries.noaa.gov/action/revisions-process-distinguishing-serious-non-serious-injury-marine-mammals)                |
-| Biopsy         | Genetic sample(s) collected (Yes) or not (No) during interaction                                                                                                                                                                                                                                            |
+| Biopsy         | Genetic sample collected (Yes) or not (No) during interaction                                                                                                                                                                                                                                               |
 
 ### Disclaimer and License
 
