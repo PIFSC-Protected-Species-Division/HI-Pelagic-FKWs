@@ -95,7 +95,7 @@ information:
 
 All false killer whale interactions with the Hawaiʻi-based longline
 fisheries were aggregated to inform defining the Hawaiʻi pelagic false
-killer whale management area. All interactions from 2001 through 2002
+killer whale management area. All interactions from 2001 through 2022
 were included. The resulting file “03_pFKW_FishTakes_All_2001-2022.csv”
 contains the following information:
 
