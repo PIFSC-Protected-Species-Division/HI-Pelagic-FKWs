@@ -2,7 +2,8 @@
 
 # Developing a management area for Hawaiʻi pelagic false killer whales
 
-This repository contains files referenced in Oleson et al. (2023) that
+This repository contains files referenced in [Oleson et
+al. (2023)](https://repository.library.noaa.gov/view/noaa/56119) that
 pertain to the development of a new management area for the Hawaiʻi
 pelagic stock of false killer whales. The first files, located in the
 [data](https://github.com/PIFSC-Protected-Species-Division/HI-Pelagic-FKWs/tree/main/data)
@@ -24,7 +25,8 @@ whale management area. The shapefile contains a line feature with a
 current projection of WGS_1984_UTM_Zone_4N. The shapefile was created by
 Amanda Bradford at the NOAA Fisheries Pacific Islands Fisheries Science
 Center using the satellite telemetry, genetic sample, survey sighting,
-and fishery interaction data as described in Oleson et al. (2023). For
+and fishery interaction data as described in [Oleson et
+al. (2023)](https://repository.library.noaa.gov/view/noaa/56119). For
 ease and simplicity, metadata for the shapefile were entered using the
 “Item Description” style in ArcGIS Desktop, but this may be updated in
 the future.
