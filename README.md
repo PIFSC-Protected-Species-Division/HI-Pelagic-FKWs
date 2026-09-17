@@ -1,10 +1,10 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Developing a management area for Hawaiʻi pelagic false killer whales
+# Developing an assessment area for Hawaiʻi pelagic false killer whales
 
 This repository contains files referenced in [Oleson et
 al. (2023)](https://repository.library.noaa.gov/view/noaa/56119) that
-pertain to the development of a new management area for the Hawaiʻi
+pertain to the development of a new assessment area for the Hawaiʻi
 pelagic stock of false killer whales. The first files, located in the
 [data](https://github.com/PIFSC-Protected-Species-Division/HI-Pelagic-FKWs/tree/main/data)
 folder, summarize the available biological data for Hawaiʻi pelagic
@@ -21,7 +21,7 @@ Telemetry network](https://portal.atn.ioos.us/#metadata/137104/species).
 The remaining files, located in the
 [boundary](https://github.com/PIFSC-Protected-Species-Division/HI-Pelagic-FKWs/tree/main/boundary)
 folder, comprise a shapefile of the new Hawaiʻi pelagic false killer
-whale management area. The shapefile contains a line feature with a
+whale assessment area. The shapefile contains a line feature with a
 current projection of WGS_1984_UTM_Zone_4N. The shapefile was created by
 Amanda Bradford at the NOAA Fisheries Pacific Islands Fisheries Science
 Center using the satellite telemetry, genetic sample, survey sighting,
@@ -33,7 +33,7 @@ the future.
 
 Downloading individual components of a shapefile is not recommended;
 however, downloading individual folders from GitHub is not intuitive.
-The easiest way to obtain the management area boundary is to download
+The easiest way to obtain the assessment area boundary is to download
 the repository by clicking on the green “Code” button in the upper right
 of this page and selecting “Download ZIP”. You can then delete the files
 and folders you do not need. If you have any questions or issues with
@@ -45,7 +45,7 @@ amanda.bradford@noaa.gov.
 Sample locations of false killer whales within the central North Pacific
 (defined as the area from the equator to 43°N, and from 175°E to 132°W)
 were compiled for use in defining the Hawaiʻi pelagic false killer whale
-management area. All processed samples collected to date (i.e., through
+assessment area. All processed samples collected to date (i.e., through
 17 April 2021) were included, excluding those from the main Hawaiian
 Islands insular and Northwestern Hawaiian Islands stocks. The resulting
 file “01_pFKW_GenSamps_CNP_1997-2021.csv” contains the following
@@ -61,14 +61,14 @@ information:
 | Haplotype      | Pelagic haplotype number; the unknown (U) number represents a case where a single ambiguous base during sequencing prevented assignment, and “New” refers to a new haplotype that is in the process of being confirmed |
 | Lat            | Latitude of sample location in decimal degrees                                                                                                                                                                         |
 | Lon            | Longitude of sample location in decimal degrees                                                                                                                                                                        |
-| InMgmtArea     | Sample location is within (TRUE) or outside (FALSE) the new management area                                                                                                                                            |
+| InMgmtArea     | Sample location is within (TRUE) or outside (FALSE) the new assessment area                                                                                                                                            |
 
 ## Survey sighting data
 
 Sightings of false killer whales during NOAA Fisheries ship-based
 line-transect surveys of the central North Pacific were extracted to
 help guide the definition of the the Hawaiʻi pelagic false killer whale
-management area. All sightings made to date (i.e., through 3 March 2020)
+assessment area. All sightings made to date (i.e., through 3 March 2020)
 were included, excluding those of the main Hawaiian Islands insular and
 Northwestern Hawaiian Islands stocks. The resulting file
 “02_pFKW_SurSights_CNP_1986-2020.csv” contains the following
@@ -90,14 +90,14 @@ information:
 | Photos         | Photos collected (Yes) or not (No) during sighting                                                                                                                                                                                                                                                                        |
 | Tag            | Satellite tag(s) deployed (Yes) or not (No) during sighting                                                                                                                                                                                                                                                               |
 | stockArea      | Stock area of sighting location, either within the U.S. EEZ around the Hawaiian Islands (HawaiiEEZ) or Palmyra (PalmyraEEZ), within the boundary of the main Hawaiian Islands (MHI) insular or Northwestern Hawaiian Islands (NWHI) stocks or the overlap between the two (MHI-NWHI), or outside the U.S EEZ (OutsideEEZ) |
-| InMgmtArea     | Sighting location is within (TRUE) or outside (FALSE) the new management area                                                                                                                                                                                                                                             |
+| InMgmtArea     | Sighting location is within (TRUE) or outside (FALSE) the new assessment area                                                                                                                                                                                                                                             |
 | Stock          | Stock assignment from genetic, photo, tag, or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with sightings that could be of either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic, NWHIorHIPelagic, or MHIorNWHIorHIPelagic)        |
 
 ## Fishery interaction data
 
 All false killer whale interactions with the Hawaiʻi-based longline
 fisheries were aggregated to inform defining the Hawaiʻi pelagic false
-killer whale management area. All interactions from 2001 through 2022
+killer whale assessment area. All interactions from 2001 through 2022
 were included. The resulting file “03_pFKW_FishTakes_All_2001-2022.csv”
 contains the following information:
 
@@ -109,12 +109,18 @@ contains the following information:
 | Lat            | Latitude of interaction location in decimal degrees                                                                                                                                                                                                                                                         |
 | Lon            | Longitude of interaction location in decimal degrees                                                                                                                                                                                                                                                        |
 | stockArea      | Stock area of interaction location, either within the U.S. EEZ around the Hawaiian Islands (HawaiiEEZ), Palmyra (PalmyraEEZ), or Johnston (JohnstonEEZ); within the boundary of the main Hawaiian Islands (MHI) insular or Northwestern Hawaiian Islands (NWHI) stocks; or outside the U.S EEZ (OutsideEEZ) |
-| InMgmtArea     | Interaction location is within (TRUE) or outside (FALSE) the new management area                                                                                                                                                                                                                            |
+| InMgmtArea     | Interaction location is within (TRUE) or outside (FALSE) the new assessment area                                                                                                                                                                                                                            |
 | Stock          | Stock assignment from genetic or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with interaction that could be with either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic or NWHIorHIPelagic)                          |
 | InjDet         | Severity of injury resulting from interaction, either serious, non-serious, cannot-be-determined (CBD), or dead following NOAA Fisheries injury determination [guidelines](https://www.fisheries.noaa.gov/action/revisions-process-distinguishing-serious-non-serious-injury-marine-mammals)                |
 | Biopsy         | Genetic sample collected (Yes) or not (No) during interaction                                                                                                                                                                                                                                               |
 
 ### Disclaimer and License
+
+<sub>This page has been updated to reflect current terminology. The area 
+previously referred to as the “management area” is now called the “assessment 
+area" to more accurately reflect that the area is used to assess the stock, 
+not necessarily as a management boundary. The term “management area” remains 
+in some previously published official records and documents.
 
 <sub>This repository is a scientific product and is not official
 communication of the National Oceanic and Atmospheric Administration, or
