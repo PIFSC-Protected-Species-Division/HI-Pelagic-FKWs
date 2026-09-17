@@ -15,7 +15,7 @@ file of interest within the
 [data](https://github.com/PIFSC-Protected-Species-Division/HI-Pelagic-FKWs/tree/main/data)
 folder and then clicking on the “download raw file” button to the upper
 right of the file preview. Note that the satellite telemetry data also
-used to develop the new management area is available from the [Animal
+used to develop the new assessment area is available from the [Animal
 Telemetry network](https://portal.atn.ioos.us/#metadata/137104/species).
 
 The remaining files, located in the
@@ -51,17 +51,17 @@ Islands insular and Northwestern Hawaiian Islands stocks. The resulting
 file “01_pFKW_GenSamps_CNP_1997-2021.csv” contains the following
 information:
 
-| Column heading | Explanation                                                                                                                                                                                                            |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Date           | Date of sample collection (m/d/yyyy)                                                                                                                                                                                   |
-| LabID          | Lab identification number assigned by the NOAA Fisheries Southwest Fisheries Science Center Marine Mammal Genetics Program                                                                                             |
-| Duplicate      | Lab identification number of the sample taken from the same individual                                                                                                                                                 |
-| FieldID        | Identification label associated with the sample source; longline fishery trip numbers have been obscured to maintain confidentiality                                                                                   |
-| Sex            | Sex of the individual, either female (F), male (M), or unknown (U)                                                                                                                                                     |
-| Haplotype      | Pelagic haplotype number; the unknown (U) number represents a case where a single ambiguous base during sequencing prevented assignment, and “New” refers to a new haplotype that is in the process of being confirmed |
-| Lat            | Latitude of sample location in decimal degrees                                                                                                                                                                         |
-| Lon            | Longitude of sample location in decimal degrees                                                                                                                                                                        |
-| InMgmtArea     | Sample location is within (TRUE) or outside (FALSE) the new assessment area                                                                                                                                            |
+| Column heading | Explanation |
+|----|----|
+| Date | Date of sample collection (m/d/yyyy) |
+| LabID | Lab identification number assigned by the NOAA Fisheries Southwest Fisheries Science Center Marine Mammal Genetics Program |
+| Duplicate | Lab identification number of the sample taken from the same individual |
+| FieldID | Identification label associated with the sample source; longline fishery trip numbers have been obscured to maintain confidentiality |
+| Sex | Sex of the individual, either female (F), male (M), or unknown (U) |
+| Haplotype | Pelagic haplotype number; the unknown (U) number represents a case where a single ambiguous base during sequencing prevented assignment, and “New” refers to a new haplotype that is in the process of being confirmed |
+| Lat | Latitude of sample location in decimal degrees |
+| Lon | Longitude of sample location in decimal degrees |
+| InMgmtArea | Sample location is within (TRUE) or outside (FALSE) the new assessment area |
 
 ## Survey sighting data
 
@@ -74,24 +74,24 @@ Northwestern Hawaiian Islands stocks. The resulting file
 “02_pFKW_SurSights_CNP_1986-2020.csv” contains the following
 information:
 
-| Column heading | Explanation                                                                                                                                                                                                                                                                                                               |
-|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Date           | Date of survey sighting (m/d/yyyy)                                                                                                                                                                                                                                                                                        |
-| SurveyNo       | Survey number assigned by NOAA Fisheries                                                                                                                                                                                                                                                                                  |
-| Ship           | Survey vessel (three-letter abbreviation, email amanda.bradford@noaa.gov for full ship name)                                                                                                                                                                                                                              |
-| SightNo        | Sighting number assigned during survey                                                                                                                                                                                                                                                                                    |
-| Time           | Local time of sighting                                                                                                                                                                                                                                                                                                    |
-| Effort         | Sighting was made while ON or OFF effort                                                                                                                                                                                                                                                                                  |
-| EffType        | Sighting was made while on systematic (S), non-systematic (N), or fine-scale effort or while off-effort (O)                                                                                                                                                                                                               |
-| Mixed          | Sighting was of mixed-species (TRUE) or only of false killer whales (FALSE)                                                                                                                                                                                                                                               |
-| Lat            | Latitude of sighting location in decimal degrees                                                                                                                                                                                                                                                                          |
-| Lon            | Longitude of sighting location in decimal degrees                                                                                                                                                                                                                                                                         |
-| Biopsy         | Genetic sample(s) collected (Yes) or not (No) during sighting                                                                                                                                                                                                                                                             |
-| Photos         | Photos collected (Yes) or not (No) during sighting                                                                                                                                                                                                                                                                        |
-| Tag            | Satellite tag(s) deployed (Yes) or not (No) during sighting                                                                                                                                                                                                                                                               |
-| stockArea      | Stock area of sighting location, either within the U.S. EEZ around the Hawaiian Islands (HawaiiEEZ) or Palmyra (PalmyraEEZ), within the boundary of the main Hawaiian Islands (MHI) insular or Northwestern Hawaiian Islands (NWHI) stocks or the overlap between the two (MHI-NWHI), or outside the U.S EEZ (OutsideEEZ) |
-| InMgmtArea     | Sighting location is within (TRUE) or outside (FALSE) the new assessment area                                                                                                                                                                                                                                             |
-| Stock          | Stock assignment from genetic, photo, tag, or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with sightings that could be of either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic, NWHIorHIPelagic, or MHIorNWHIorHIPelagic)        |
+| Column heading | Explanation |
+|----|----|
+| Date | Date of survey sighting (m/d/yyyy) |
+| SurveyNo | Survey number assigned by NOAA Fisheries |
+| Ship | Survey vessel (three-letter abbreviation, email amanda.bradford@noaa.gov for full ship name) |
+| SightNo | Sighting number assigned during survey |
+| Time | Local time of sighting |
+| Effort | Sighting was made while ON or OFF effort |
+| EffType | Sighting was made while on systematic (S), non-systematic (N), or fine-scale effort or while off-effort (O) |
+| Mixed | Sighting was of mixed-species (TRUE) or only of false killer whales (FALSE) |
+| Lat | Latitude of sighting location in decimal degrees |
+| Lon | Longitude of sighting location in decimal degrees |
+| Biopsy | Genetic sample(s) collected (Yes) or not (No) during sighting |
+| Photos | Photos collected (Yes) or not (No) during sighting |
+| Tag | Satellite tag(s) deployed (Yes) or not (No) during sighting |
+| stockArea | Stock area of sighting location, either within the U.S. EEZ around the Hawaiian Islands (HawaiiEEZ) or Palmyra (PalmyraEEZ), within the boundary of the main Hawaiian Islands (MHI) insular or Northwestern Hawaiian Islands (NWHI) stocks or the overlap between the two (MHI-NWHI), or outside the U.S EEZ (OutsideEEZ) |
+| InMgmtArea | Sighting location is within (TRUE) or outside (FALSE) the new assessment area |
+| Stock | Stock assignment from genetic, photo, tag, or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with sightings that could be of either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic, NWHIorHIPelagic, or MHIorNWHIorHIPelagic) |
 
 ## Fishery interaction data
 
@@ -101,26 +101,27 @@ killer whale assessment area. All interactions from 2001 through 2022
 were included. The resulting file “03_pFKW_FishTakes_All_2001-2022.csv”
 contains the following information:
 
-| Column heading | Explanation                                                                                                                                                                                                                                                                                                 |
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Date           | Date of fishery interaction (m/d/yyyy)                                                                                                                                                                                                                                                                      |
-| TripArrYear    | Year the fishing trip arrived to port                                                                                                                                                                                                                                                                       |
-| Fishery        | Hawaiʻi-based longline fishery, either deep-set (DS) or shallow-set (SS), with tuna-targeting deep sets (T) applied to 2001 prior to a regulatory change                                                                                                                                                    |
-| Lat            | Latitude of interaction location in decimal degrees                                                                                                                                                                                                                                                         |
-| Lon            | Longitude of interaction location in decimal degrees                                                                                                                                                                                                                                                        |
-| stockArea      | Stock area of interaction location, either within the U.S. EEZ around the Hawaiian Islands (HawaiiEEZ), Palmyra (PalmyraEEZ), or Johnston (JohnstonEEZ); within the boundary of the main Hawaiian Islands (MHI) insular or Northwestern Hawaiian Islands (NWHI) stocks; or outside the U.S EEZ (OutsideEEZ) |
-| InMgmtArea     | Interaction location is within (TRUE) or outside (FALSE) the new assessment area                                                                                                                                                                                                                            |
-| Stock          | Stock assignment from genetic or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with interaction that could be with either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic or NWHIorHIPelagic)                          |
-| InjDet         | Severity of injury resulting from interaction, either serious, non-serious, cannot-be-determined (CBD), or dead following NOAA Fisheries injury determination [guidelines](https://www.fisheries.noaa.gov/action/revisions-process-distinguishing-serious-non-serious-injury-marine-mammals)                |
-| Biopsy         | Genetic sample collected (Yes) or not (No) during interaction                                                                                                                                                                                                                                               |
+| Column heading | Explanation |
+|----|----|
+| Date | Date of fishery interaction (m/d/yyyy) |
+| TripArrYear | Year the fishing trip arrived to port |
+| Fishery | Hawaiʻi-based longline fishery, either deep-set (DS) or shallow-set (SS), with tuna-targeting deep sets (T) applied to 2001 prior to a regulatory change |
+| Lat | Latitude of interaction location in decimal degrees |
+| Lon | Longitude of interaction location in decimal degrees |
+| stockArea | Stock area of interaction location, either within the U.S. EEZ around the Hawaiian Islands (HawaiiEEZ), Palmyra (PalmyraEEZ), or Johnston (JohnstonEEZ); within the boundary of the main Hawaiian Islands (MHI) insular or Northwestern Hawaiian Islands (NWHI) stocks; or outside the U.S EEZ (OutsideEEZ) |
+| InMgmtArea | Interaction location is within (TRUE) or outside (FALSE) the new assessment area |
+| Stock | Stock assignment from genetic or locality inference, either Hawaiʻi pelagic (HIPelagic), Palmyra, or unknown pelagic (UnkPelagic), with interaction that could be with either the Hawaiʻi pelagic, MHI, or NWHI stocks represented accordingly (MHIorHIPelagic or NWHIorHIPelagic) |
+| InjDet | Severity of injury resulting from interaction, either serious, non-serious, cannot-be-determined (CBD), or dead following NOAA Fisheries injury determination [guidelines](https://www.fisheries.noaa.gov/action/revisions-process-distinguishing-serious-non-serious-injury-marine-mammals) |
+| Biopsy | Genetic sample collected (Yes) or not (No) during interaction |
 
 ### Disclaimer and License
 
-<sub>This page has been updated to reflect current terminology. The area 
-previously referred to as the “management area” is now called the “assessment 
-area" to more accurately reflect that the area is used to assess the stock, 
-not necessarily as a management boundary. The term “management area” remains 
-in some previously published official records and documents.
+<sub>This page has been updated to reflect current terminology. The area
+previously referred to as the “management area” is now called the
+“assessment area” to more accurately reflect that the area is used to
+assess the stock, not necessarily as a management boundary. The term
+“management area” remains in some previously published official records
+and documents.
 
 <sub>This repository is a scientific product and is not official
 communication of the National Oceanic and Atmospheric Administration, or
